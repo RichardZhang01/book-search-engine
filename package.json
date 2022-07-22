@@ -1,7 +1,7 @@
 {
   "name": "googlebooks-app",
   "version": "1.0.0",
-  "description": "A book search engine that allows users to find and save books to a personal list. Powered by the Google Books API, and built using the MERN stack.",
+  "description": "A book search engine that allows users to find and save books to a personal list. Powered by the Google Books API, built using the MERN stack. and featuring Apollo Server & GraphQL.",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
