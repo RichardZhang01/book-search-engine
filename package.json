@@ -4,7 +4,7 @@
   "description": "A book search engine that allows users to find and save books to a personal list. Powered by the Google Books API, built using the MERN stack. and featuring Apollo Server & GraphQL.",
   "main": "server/server.js",
   "scripts": {
-    "start": "node server/server.js",
+    "start": "npm run build && concurrently \"cd server && node server.js\" \"cd client && npm start\"",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
@@ -17,7 +17,9 @@
     "MongoDB",
     "ExpressJS",
     "Full-stack",
-    "books"
+    "books",
+    "Apollo Server",
+    "GraphQL"
   ],
   "author": "Richard Zhang",
   "license": "MIT",
