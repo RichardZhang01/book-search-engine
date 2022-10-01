@@ -7,6 +7,7 @@
     "start": "npm run build && concurrently \"cd server && node server.js\" \"cd client && npm start\"",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
+    "server": "cd server && node server.js",
     "build": "cd client && npm run build"
   },
   "keywords": [
